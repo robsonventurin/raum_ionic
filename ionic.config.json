@@ -1,0 +1,8 @@
+{
+  "name": "raum_ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "6e81e391"
+}
