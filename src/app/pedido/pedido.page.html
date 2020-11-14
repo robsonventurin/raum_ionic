@@ -1,0 +1,69 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Pedido de materiais</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form>
+    <img src="assets/img/logo.png" style="display:block;width:30%;height:auto;margin-left:auto;margin-right:auto; margin-top:20px;" />
+
+    <ion-row>
+      <ion-col>
+        <p style="margin-top:20px;padding:0 10px;">
+          Selecione os itens abaixo para bater o ponto do funcionário.
+        </p>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label>Obra</ion-label>
+          <ion-select placeholder="Selecione">
+            <ion-select-option value="1">Florença 1</ion-select-option>
+            <ion-select-option value="2">Florença 2</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label>Tipo</ion-label>
+          <ion-select placeholder="Selecione">
+            <ion-select-option value="1">Ferramentas Equipamentos Acessórios (F-E-A)</ion-select-option>
+            <ion-select-option value="2">Equipamento de Segurança (EPI)</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6">
+          <ion-item>
+            <ion-label>asd</ion-label>
+            <ion-checkbox></ion-checkbox>
+          </ion-item>
+        </ion-col>
+        <ion-col size="6">
+          <ion-item>
+            <ion-label position="floating">Quantidade</ion-label>
+            <ion-input type="text" required></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-row>
+      <ion-col>
+        <ion-button type="submit" color="danger" expand="block">Solicitar material</ion-button>
+      </ion-col>
+    </ion-row>
+  </form>
+</ion-content>
